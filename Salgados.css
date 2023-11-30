@@ -1,0 +1,108 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.topicos{
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: greenyellow;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;  
+}
+
+/* ESTILO DE CABEÇALHO */
+header{
+    padding: 0px;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover{
+    color: whitesmoke;
+    transform: scale(1.10);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 70px;
+} 
+
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 10px white;
+    transform: scale(1.10);
+}
+
+/*ESTILO RECEITA-DE-DOCE*/
+section.receita-de-salgado{
+    padding: 40px 4%;
+}
+
+.img-port{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 15%; 
+    position: left;
+}
+
+section.receita-de-salgado .flex{
+    align-items: center;
+    gap: 40px;
+   
+}
+
+.receita-de-salgado .txt-receita h1{
+    line-height: 30px;
+    font-size: 25px;
+    padding: 40px 4% ;
+}
+
+.receita-de-salgado .txt-receita h2{
+    font-size: 20px;
+    line-height: 40px;
+    margin: 10px 0;
+}
+
+.receita-de-salgado .txt-receita p{
+       text-align: justify;
+    
+}
+
+
